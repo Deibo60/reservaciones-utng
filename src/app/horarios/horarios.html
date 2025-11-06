@@ -1,0 +1,42 @@
+<div class="card p-4">
+  <h3 class="text-center text-primary mb-4">Horarios Disponibles</h3>
+
+  <form class="row g-3">
+    <div class="col-md-6">
+      <input type="time" class="form-control" placeholder="Hora Inicio" />
+    </div>
+    <div class="col-md-6">
+      <input type="time" class="form-control" placeholder="Hora Fin" />
+    </div>
+    <div class="col-12 text-center">
+      <button class="btn btn-primary me-2">Agregar</button>
+      <button class="btn btn-secondary me-2">Actualizar</button>
+      <button class="btn btn-danger me-2">Eliminar</button>
+      <button class="btn btn-dark">Limpiar</button>
+    </div>
+  </form>
+
+  <hr />
+
+  <table class="table table-hover text-center">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Hora Inicio</th>
+        <th>Hora Fin</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>08:00</td>
+        <td>10:00</td>
+        <td>
+          <button class="btn btn-sm btn-warning me-2">Editar</button>
+          <button class="btn btn-sm btn-danger">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
